@@ -1,0 +1,47 @@
+<nav class="menu-navegacion">
+  <button routerLink="/presentacion" routerLinkActive="activo">Presentación</button>
+  <button routerLink="/pasatiempos" routerLinkActive="activo">Pasatiempos</button>
+  <button routerLink="/lugares" routerLinkActive="activo">Lugares</button>
+</nav>
+
+<style>
+.menu-navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.menu-navegacion button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-navegacion button:hover {
+  background-color: #0056b3;
+}
+
+.menu-navegacion .activo {
+  background-color: #28a745 !important; /* Verde para la sección activa */
+}
+</style>
+<div class="contenedor">
+  <h1>¡Hola! Soy Daniel Torres Cruz</h1>
+  <p>
+    Soy un estudiante/apasionado de la tecnología. Esta es una breve presentación sobre mí.
+  </p>
+
+  <div class="info">
+    <h2>¿Quién soy?</h2>
+    <p>
+      Tengo interés en el desarrollo web, disfruto programar y aprender cosas nuevas. Esta aplicación en Angular es un proyecto personal para mostrar un poco sobre mí.
+    </p>
+  </div>
+</div>

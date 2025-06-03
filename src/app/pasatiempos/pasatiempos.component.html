@@ -1,0 +1,59 @@
+<nav class="menu-navegacion">
+  <button routerLink="/presentacion" routerLinkActive="activo">Presentación</button>
+  <button routerLink="/pasatiempos" routerLinkActive="activo">Pasatiempos</button>
+  <button routerLink="/lugares" routerLinkActive="activo">Lugares</button>
+</nav>
+
+<style>
+.menu-navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.menu-navegacion button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-navegacion button:hover {
+  background-color: #0056b3;
+}
+
+.menu-navegacion .activo {
+  background-color: #28a745 !important; /* Verde para la sección activa */
+}
+</style>
+<div class="pasatiempos-container">
+  <h2><i class="fas fa-heart"></i> Mis Pasatiempos</h2>
+  <ul class="lista-pasatiempos">
+    <li>
+      <i class="fas fa-music"></i>
+      Escuchar música
+    </li>
+    <li>
+      <i class="fas fa-book"></i>
+      Leer libros
+    </li>
+    <li>
+      <i class="fas fa-hiking"></i>
+      Hacer senderismo
+    </li>
+    <li>
+      <i class="fas fa-camera"></i>
+      Tomar fotografías
+    </li>
+    <li>
+      <i class="fas fa-gamepad"></i>
+      Jugar videojuegos
+    </li>
+  </ul>
+</div>

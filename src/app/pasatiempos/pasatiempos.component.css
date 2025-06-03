@@ -1,0 +1,44 @@
+.pasatiempos-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff5f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.pasatiempos-container h2 {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 25px;
+}
+
+.lista-pasatiempos {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-pasatiempos li {
+  background-color: #ffe3ec;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.lista-pasatiempos li:hover {
+  background-color: #f8cde0;
+}
+
+.lista-pasatiempos i {
+  color: #d63384;
+  font-size: 1.3rem;
+}

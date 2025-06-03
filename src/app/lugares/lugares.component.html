@@ -1,0 +1,66 @@
+<nav class="menu-navegacion">
+  <button routerLink="/presentacion" routerLinkActive="activo">Presentación</button>
+  <button routerLink="/pasatiempos" routerLinkActive="activo">Pasatiempos</button>
+  <button routerLink="/lugares" routerLinkActive="activo">Lugares</button>
+</nav>
+
+<style>
+.menu-navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.menu-navegacion button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-navegacion button:hover {
+  background-color: #0056b3;
+}
+
+.menu-navegacion .activo {
+  background-color: #28a745 !important; /* Verde para la sección activa */
+}
+</style>
+
+<div class="lugares-container">
+  <h2><i class="fas fa-map-marked-alt"></i> Lugares Favoritos</h2>
+  <div class="tarjetas-lugares">
+    
+    <div class="lugar">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.trWst2Z-JbzjC2i77MG1iAHaE8?cb=iwc2&rs=1&pid=ImgDetMain" alt="Real del Monte, Hidalgo">
+      <h3><i class="fas fa-mountain"></i> Real del Monte, Hidalgo</h3>
+    </div>
+
+    <div class="lugar">
+      <img src="https://th.bing.com/th/id/R.e7bcb608cda0895d40293afe7a1aa009?rik=3JLQJwDKpA%2fugg&pid=ImgRaw&r=0" alt="Mazunte, Oaxaca">
+      <h3><i class="fas fa-water"></i> Mazunte, Oaxaca</h3>
+    </div>
+
+    <div class="lugar">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.kByXw21DBWRrK-Pd0bbnDgHaE8?cb=iwc2&rs=1&pid=ImgDetMain" alt="Puerto Escondido, Oaxaca">
+      <h3><i class="fas fa-umbrella-beach"></i> Puerto Escondido, Oaxaca</h3>
+    </div>
+
+    <div class="lugar">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.NUMpzMmXLa4UmU8O88SYbwHaEo?cb=iwc2&rs=1&pid=ImgDetMain" alt="St. Petersburgo, Florida">
+      <h3><i class="fas fa-city"></i> St. Petersburgo, Florida</h3>
+    </div>
+
+    <div class="lugar">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.KKrByFNBE0tdBQeQc2ATGwHaE8?cb=iwc2&rs=1&pid=ImgDetMain" alt="Taxco, Guerrero">
+      <h3><i class="fas fa-landmark"></i> Taxco, Guerrero</h3>
+    </div>
+
+  </div>
+</div>
